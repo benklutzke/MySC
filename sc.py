@@ -3,7 +3,7 @@ import sys
 import os.path
 
 try:
-	from urllib2 import urlopen
+    from urllib2 import urlopen
 except ImportError:
     from urllib.request import urlopen
 
